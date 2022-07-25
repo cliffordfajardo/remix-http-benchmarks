@@ -1,0 +1,22 @@
+{
+  "name": "database-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "clifford",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "volta": {
+    "node": "16.15.0",
+    "yarn": "1.22.17"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.5"
+  }
+}

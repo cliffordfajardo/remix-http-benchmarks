@@ -1,0 +1,21 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd ./scripts && node setup-volta.mjs && cd ../",
+    "setup-database": "cd ./scripts && node setup-database.mjs && cd ../"
+  },
+  "author": "clifford",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^8.6.5",
+    "pg": "^8.7.3",
+    "zx": "^7.0.7"
+  },
+  "volta": {
+    "node": "16.15.0",
+    "yarn": "1.22.17"
+  }
+}
